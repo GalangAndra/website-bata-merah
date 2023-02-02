@@ -395,6 +395,13 @@ footer .credit a:hover {
 
 /* responsive breakpoints start */
 
+/* latop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
 /* tablet */
 @media (max-width: 678px) {
   html {
@@ -433,6 +440,16 @@ footer .credit a:hover {
 
   .navbar .navbar-menu a:hover::after {
     transform: scaleX(0.2);
+  }
+  
+  .hero .content p {
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+
+  .service-choice .content p {
+    font-weight: 500;
+    font-size: 2rem;
   }
 
   .about .row {
@@ -482,6 +499,13 @@ footer .credit a:hover {
 
   .conntact .row form {
     padding-top: 0;
+  }
+}
+
+/* HP */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
   }
 }
 
