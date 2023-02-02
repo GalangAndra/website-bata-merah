@@ -447,10 +447,14 @@ footer .credit a:hover {
     font-size: 1.4rem;
   }
 
-  .service-choice .content p {
-    font-weight: 500;
-    font-size: 2rem;
+  .service-choice .content p.deskripsi-service {
+    font-weight: 400;
+    font-size: 1.2rem;
   }
+  
+  .service-choice .content p.price {
+    font-weight: 400;
+    font-size: 1.3rem;
 
   .about .row {
     flex-wrap: wrap;
