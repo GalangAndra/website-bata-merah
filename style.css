@@ -395,13 +395,6 @@ footer .credit a:hover {
 
 /* responsive breakpoints start */
 
-/* latop */
-@media (max-width: 1366px) {
-  html {
-    font-size: 75%;
-  }
-}
-
 /* tablet */
 @media (max-width: 678px) {
   html {
@@ -492,10 +485,4 @@ footer .credit a:hover {
   }
 }
 
-/* HP */
-@media (max-width: 450px) {
-  html {
-    font-size: 55%;
-  }
-}
 /* responsive breakpoints end */
