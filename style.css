@@ -444,17 +444,19 @@ footer .credit a:hover {
 
   .hero .content p {
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
-  .service-choice .content p.deskripsi-service {
+  .service-choice .content p.deskripsi-service,
+  .service-choice .content p.price {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-weight: 1.2rem;
   }
-  
+
   .service-choice .content p.price {
     font-weight: 400;
     font-size: 1.3rem;
+  }
 
   .about .row {
     flex-wrap: wrap;
